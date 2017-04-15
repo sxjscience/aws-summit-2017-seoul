@@ -38,13 +38,13 @@ Keras 2.0.3 with the Theano backend (Theano version 0.9)
 KERAS_BACKEND=theano python3 keras_seq2seq_speed.py
 ```
 
-We use a single GeForce GTX 1080 GPU + CUDNN V5.1
+We use a single GeForce Titan X GPU (Maxwell) + CUDNN V5.1
 
 | Implementation | Time spent |
 | -------------- |:----------:|
-| MXNet with CUDNN LSTM | 5.34s |
-| MXNet with native LSTM |16.96s |
-| Keras with TF backend | 125.59s |
-| Keras with Theano backend | 66.24s |
+| MXNet with CUDNN LSTM | 3.70s |
+| MXNet with native LSTM |10.83s |
+| Keras with TF backend | 48.68s |
+| Keras with Theano backend | 49.88s |
 
-Also for the Theano speed test, I've run the script twice to eliminate the compilation time.
+Also for the Theano speed test, I've run the script twice and report the time took in the second turn.
