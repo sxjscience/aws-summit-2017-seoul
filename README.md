@@ -16,7 +16,7 @@ You can preview all the notebooks here or using in https://nbviewer.jupyter.org/
 
 For the speed comparison, we use these commands:
 
-MXNet with CUDNN accelerated LSTM
+MXNet with CUDNN accelerated LSTM (MXNet using latest master)
 ```bash
 python3 mxnet_seq2seq_cudnn_speed.py
 ```
