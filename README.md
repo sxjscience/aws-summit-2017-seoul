@@ -12,7 +12,7 @@ Demo codes in our presentation about MXNet in AWS Seoul Summit 2017
 | mxnet_seq2seq_native_speed.py | The MXNet side script that uses the native implemented LSTM for seq2seq model |
 | keras_seq2seq_speed.py     | The Keras side script for seq2seq model |
 
-You can preview all the notebooks here or using in https://nbviewer.jupyter.org/github/sxjscience/aws-summit-2017-seoul/tree/master/
+You can preview all the notebooks here or using in https://nbviewer.jupyter.org/github/sxjscience/aws-summit-2017-seoul/tree/master/. Also, you can refer to the code and youtube tutorials in https://github.com/hunkim/DeepLearningZeroToAll for more explanation.
 
 For the speed comparison, we use these commands:
 
